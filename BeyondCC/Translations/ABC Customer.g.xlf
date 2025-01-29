@@ -78,6 +78,16 @@
           <note from="Developer" annotates="general" priority="2">%</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABC My Archive - Control Entry No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3825675322 - Control 2268965417 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the File Content field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABC My Archive - Control File Content - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3825675322 - Control 2268965417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blob Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABC My Archive - Control File Content - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3825675322 - Control 804481195 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the File Name field.</source>
           <note from="Developer" annotates="general" priority="2">%</note>

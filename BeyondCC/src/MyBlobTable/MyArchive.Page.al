@@ -23,6 +23,12 @@ page 50001 "ABC My Archive"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the File Name field.', Comment = '%';
                 }
+                field("File Content"; Rec."File Content".HasValue)
+                {
+                    Caption = 'Blob Content';
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the File Content field.', Comment = '%';
+                }
             }
         }
     }

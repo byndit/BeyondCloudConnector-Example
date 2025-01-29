@@ -28,5 +28,7 @@ codeunit 50007 "ABC Upload to Cloud Connector"
             CloudstorageMgt.InitCloudFile(CloudStorage, CloudFile, Rec.RecordId(), InStr.Length(), 'MySharepointArchive', Rec."File Name", '');
         CloudstorageMgt.UploadCloudFileChunk(CloudApplication, CloudFile, InStr.Length(), 0, InStr);
         CloudstorageMgt.CloseCloudFile(CloudFile);
+        Clear(Rec."File Content");
+        Rec.Modify(true);
     end;
 }
