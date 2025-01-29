@@ -23,7 +23,7 @@ codeunit 50007 "ABC Upload to Cloud Connector"
         CloudApplication.Get('ARCHIVE');
         CloudApplicationMgt.CheckToken(CloudApplication);
         if CloudApplication."Application Type" = CloudApplication."Application Type"::Sharepoint then
-            CloudstorageMgt.InitCloudFile(CloudStorage, CloudFile, Rec.RecordId(), InStr.Length(), 'MySharepointArchive', Rec."File Name", FileMgt.GetExtension(Rec."File Name"))
+            CloudstorageMgt.InitCloudFile(CloudStorage, CloudFile, Rec.RecordId(), InStr.Length(), 'MySharepointArchive\HowTo\Files', Rec."File Name", FileMgt.GetExtension(Rec."File Name"))
         else
             CloudstorageMgt.InitCloudFile(CloudStorage, CloudFile, Rec.RecordId(), InStr.Length(), 'MySharepointArchive', Rec."File Name", '');
         CloudstorageMgt.UploadCloudFileChunk(CloudApplication, CloudFile, InStr.Length(), 0, InStr);
