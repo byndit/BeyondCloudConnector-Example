@@ -28,6 +28,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ABC General Setup - Field Primary Key - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3825675322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>My Archive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABC My Archive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3825675322 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABC My Archive - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3825675322 - Field 2268965417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABC My Archive - Field File Content - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3825675322 - Field 804481195 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABC My Archive - Field File Name - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1791901452 - NamedType 440819318" size-unit="char" translate="yes" xml:space="preserve">
           <source>Download,Upload to Beyond Cloud Connector</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -47,6 +67,31 @@
           <source>Specifies the value of the Document Process Nos. field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABC General Setup - Control Doc. Process Nos. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3825675322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>My Archive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABC My Archive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3825675322 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABC My Archive - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3825675322 - Control 804481195 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the File Name field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABC My Archive - Control File Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3825675322 - Action 36190024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABC My Archive - Action Export - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3825675322 - Action 3201496503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABC My Archive - Action Import - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 680554311 - Action 2732906943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 219593816">
           <source>Download All Attachments from System</source>

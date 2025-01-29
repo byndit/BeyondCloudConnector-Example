@@ -9,7 +9,7 @@ codeunit 50005 "ABC On Install"
 
     procedure InstallCCApp()
     var
-        ReasonLbl: Label 'ABC-CC-INSTALL-2023-06.1', Locked = true;
+        ReasonLbl: Label 'ABC-CC-INSTALL-2025-01.1', Locked = true;
     begin
         if UpgradeTag.HasUpgradeTag(ReasonLbl) then
             exit;

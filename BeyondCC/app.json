@@ -20,9 +20,9 @@
     "id": "7367e644-7294-4a21-b213-942359a67ed5",
     "name": "BeyondCloudConnector",
     "publisher": "BEYONDIT GmbH",
-    "version": "18.0.0.0"
+    "version": "22.0.0.0"
   }],  
-  "runtime": "8.1",
+  "runtime": "11.0",
   "features":  ["TranslationFile","NoImplicitWith"],
   "target": "Cloud"
 }

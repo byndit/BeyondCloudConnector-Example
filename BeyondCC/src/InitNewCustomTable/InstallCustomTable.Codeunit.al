@@ -10,6 +10,9 @@ codeunit 50004 "ABC Install Custom Table"
         InsertDropzoneTable(Database::"Location");
         InsertCloudStorage(Database::"Location");
         ActivateDropzoneForAllUsers(Database::"Location");
+        InsertDropzoneTable(Database::"ABC My Archive");
+        InsertCloudStorage(Database::"ABC My Archive");
+        ActivateDropzoneForAllUsers(Database::"ABC My Archive");
     end;
 
     local procedure InsertDropzoneTable(Id: Integer)
